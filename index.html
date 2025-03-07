@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-responsive.css">
+    <link rel="icon" href="./assets/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
+    <title>J'ai faim</title>
+</head>
+<body>
+    <header>
+        <img src="./assets/logo.png" alt="" class="logo">
+
+        <div class="burger-container">
+            <input type="checkbox" id="burger-check" class="burger-check">
+            <label for="burger-check" class="burger-menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </label>
+        </div>
+
+        <nav class="nav-container">
+            <ul class="nav-links">
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">À propos</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="presentation-container">
+            <h1>Mireille Matthieu</h1>
+            <img src="./assets/photographe.jpg" alt="">
+            <p class="presentation">Je suis une photographe culinaire passionnée, dont l'objectif est de capturer l'essence et la beauté des mets les plus exquis. Avec un œil aiguisé pour les détails et une sensibilité artistique unique, je transforme chaque plat en une véritable œuvre d'art.</p>
+        </section>
+
+        <section class="photos-container">
+            <h2>Découvrez mon travail</h2>
+            <div class="photos">
+                <img src="./assets/chicken-salad-with-fresh-vegetables.jpg" alt="">
+                <img src="./assets/chunks-594496_1280.jpg" alt="">
+                <img src="./assets/creative-assortment-delicious-food.jpg" alt="">
+                <img src="./assets/cup-tea-with-ny-cheesecake-with-berry-sauce.jpg" alt="">
+                <img src="./assets/delicious-beef-meal-with-flower.jpg" alt="">
+                <img src="./assets/dishes-with-golden-caviar-top-different-plates.jpg" alt="">
+                <img src="./assets/food-2851910_1280.jpg" alt="">
+                <img src="./assets/front-view-delicious-chocolate-cake.jpg" alt="">
+                <img src="./assets/high-angle-table-arrangement-with-delicious-food.jpg" alt="">
+                <img src="./assets/high-angle-view-vegan-salad-with-avocado.jpg" alt="">
+                <img src="./assets/portioned-cheesecake-topped-with-berries-jam.jpg" alt="">
+                <img src="./assets/raw-vegan-cake-with-lemon-lime-black-surface-covered-with-tiny-daisy-flowers.jpg" alt="">
+                <img src="./assets/sushi-8113165_1280.jpg" alt="">
+                <img src="./assets/sushi-balls-5878892_1280.jpg" alt="">
+                <img src="./assets/top-view-dessert-souffle-with-strawberry-jelly-decorated-with-chocolate-icing-strawberries-with-cup-tea.jpg" alt="">
+                <img src="./assets/top-view-spaghetti-pasta-with-tomatoes-parsley-white-table.jpg" alt="">
+            </div>
+        </section>
+
+        <section class="contact-container">
+            <h2 class="reclamation">Venez réclamer votre devis</h2>
+            <input type="checkbox" id="contact-check">
+            <label for="contact-check" class="toggle-button">
+                Votre devis
+            </label>
+
+            <form id="contact-form">
+                <label for="first-name">Prénom</label>
+                <input type="text" id="first-name" name="first-name" required>
+
+                <label for="last-name">Nom</label>
+                <input type="text" id="last-name" name="last-name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <button type="submit" class="submit-form">Valider</button>
+            </form>
+        </section>
+
+        <a href="#" class="scroll-to-top"><img src="./assets/arrow.svg" alt=""></a>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Pauline Bonnet - Rush Solo parce qu'il faut bien s'occuper</p>
+    </footer>
+</body>
+</html>

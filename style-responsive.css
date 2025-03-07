@@ -1,0 +1,83 @@
+/* --------------- GESTION COLONNES PHOTOS --------------------- */
+
+@media screen and (min-width: 550px) {
+    .photos {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .photos-container img:nth-child(even) {
+        transform: none;
+    }
+
+    .photos-container img:nth-child(3n + 2) {
+        transform: translateY(30px);
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .presentation {
+        width: 50%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .contact-container {
+        width: 50%;
+        margin: auto;
+    }
+
+    .contact-container form {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 850px) {
+    .nav-container {
+        display: flex;
+    }
+
+    .nav-links {
+        flex-direction: row;
+    }
+
+    .nav-container ul {
+        display: flex;
+        gap: var(--space);
+    }
+
+    .burger-container {
+        display: none;
+    }
+
+    .photos {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .photos-container img:nth-child(3n + 2) {
+        transform: none;
+    }
+
+    .photos-container img:nth-child(even) {
+        transform: translateY(30px);
+    }
+}
+
+@media screen and (min-width: 1150px) {
+    .photos {
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    .photos-container img:nth-child(even) {
+        transform: none;
+    }
+
+    .photos-container img:nth-child(5n + 2) {
+        transform: translateY(30px);
+    }
+
+    .photos-container img:nth-child(5n + 4) {
+        transform: translateY(30px);
+    }
+}
+
+/* --------------- FIN GESTION COLONNES PHOTOS --------------------- */
